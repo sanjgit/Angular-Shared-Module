@@ -1,0 +1,10 @@
+{
+  "name": "@bh/sharedmodule",
+  "version": "0.0.1",
+  "author": "Sanjeevkumar U",
+  "peerDependencies": {
+    "@angular/common": "^9.0.2",
+    "@angular/core": "^9.0.2",
+    "tslib": "^1.10.0"
+  }
+}

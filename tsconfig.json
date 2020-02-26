@@ -17,9 +17,16 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "sharedmodule": [
+        "dist/sharedmodule/sharedmodule",
+        "dist/sharedmodule"
+      ]
+    }
   },
-  "angularCompilerOptions": {
+  "angularCompilerOptions": {  
+    "enableIvy" : false,
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
   }
