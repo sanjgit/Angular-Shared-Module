@@ -1,6 +1,12 @@
 # MyWorkspace
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+## Creating libraries
+ng new my-workspace --create-application=false
+
+cd my-workspace
+
+ng generate library my-lib
 
 ## Development server
 
@@ -21,6 +27,13 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Publishing your library
+ng build my-lib --prod
+
+cd dist/my-lib
+
+npm publish
 
 ## Further help
 
